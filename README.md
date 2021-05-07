@@ -1,4 +1,5 @@
 ![Version](https://img.shields.io/github/v/release/leozusa/Glitch-Merge-To-Main)
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/leozusa/Glitch-Merge-To-Main)
 
 # Glitch-Merge-To-Main
 
@@ -21,4 +22,8 @@ I'll try to make a bidirectional version that also updates the Glitch copy, but 
 
 ## Questions?
 
-[Open an issue!](https://github.com/leozusa/Glitch-Merge-To-Main/issues/new)
+I have thoroughly tested this action, but if you have any suggestions, please [open an issue!](https://github.com/leozusa/Glitch-Merge-To-Main/issues/new)
+
+## Disclaimer
+
+I have no relation with Glitch.com (I'm only an enthusiastic user!) This repository is not endorsed by Glitch and does not use any of their public API endpoints.
