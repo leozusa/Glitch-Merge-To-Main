@@ -1,6 +1,8 @@
 name: Glitch Merge to Main
 author: Leonardo Zuniga https://github.com/leozusa/Glitch-Merge-To-Main
 description: Edit your files on Glitch, and this action will merge all your changes to your main branch as soon as you export your project
+icon: git-merge
+color: blue
 on:
   push:
     branches: [ glitch ]
