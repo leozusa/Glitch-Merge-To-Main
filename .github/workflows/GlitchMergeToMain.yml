@@ -1,0 +1,19 @@
+name: 'Glitch Merge to Main'
+on:
+  push:
+    branches: [ glitch ]
+jobs:
+  mergetomaster:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v4
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            github.repos.merge({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              commit_message: context.payload.head_commit.message,
+              head: 'glitch',
+              base: 'main',
+            });
