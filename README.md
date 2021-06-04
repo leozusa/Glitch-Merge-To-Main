@@ -7,10 +7,11 @@ Merge your work as you export from the glitch editor to your main branch on GitH
 
 ## How to use
 
-1. Import the code in action.yml into your repository's Actions->Workflows.
-2. Connect your repo to Glitch and import it to its workspace.
-3. Perform your edits as usual.
-4. **Export!** your code will be merged and comments will be transferred to your main branch.
+1. Import the code in action.yml into your repository's Actions->Workflows, give it any name.
+2. Remove the properties mentioned on the comments.
+3. Connect your repo to Glitch and import it to its workspace.
+4. Perform your edits as usual.
+5. **Export!** your code will be merged and comments will be transferred to your main branch.
 
 ## How to Customize
 
