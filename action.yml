@@ -1,9 +1,11 @@
-name: Glitch Merge to Main
-author: Leonardo Zuniga https://github.com/leozusa/Glitch-Merge-To-Main
-description: Edit your files on Glitch, and this action will merge all your changes to your main branch as soon as you export your project
+name: 'Glitch Merge to Main'
+#ATTENTION! In order for this action to work, delete from this line...
+description: 'Edit your files on Glitch, and this action will merge all your changes to your main branch as soon as you export your project'
+author: 'Leonardo Zuniga https://github.com/leozusa/Glitch-Merge-To-Main'
 branding:
   icon: git-merge
   color: blue
+#...all the way to this line, and place in your .github/workflows/ folder
 on:
   push:
     branches: [ glitch ]
